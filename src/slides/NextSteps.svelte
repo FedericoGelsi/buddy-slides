@@ -10,7 +10,7 @@
 </script>
 
 <Slide bgImage={Background}>
-  <div class="flex flex-col justify-between h-[80vh]">
+  <div class="flex flex-col h-full py-16">
     <div class="flex justify-between items-start">
       <SlideTitleLight
         title={"Nuestros próximos pasos"}
@@ -18,7 +18,7 @@
       />
       <BuddyLogoLight />
     </div>
-    <div class="flex justify-between">
+    <div class="flex justify-between items-center grow">
       <div class="flex flex-col justify-start gap-16">
         <div class="flex items-center gap-4">
           <div class="rounded-full w-4 h-4 bg-[#0C969D]"></div>

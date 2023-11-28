@@ -7,18 +7,18 @@
 </script>
 
 <Slide bgImage={Background}>
-  <div class="flex flex-col justify-between h-[80vh]">
+  <div class="flex flex-col h-full py-16">
     <div class="flex justify-between items-start">
       <SlideTitleDark title={"Una situación alarmante"} subtitle={"UNESCO"} />
       <BuddyLogoDark />
     </div>
-    <div class="grid grid-cols-2 gap-16 mb-32">
-      <DataCard header={"2021"} footer={"DENUNCIAS"}>
-        <p class="text-[5rem] text-[#D1E8B2] font-bold">6.000</p>
-      </DataCard>
-      <DataCard header={"ENTRE 2012 y 2021"} footer={"CASOS"}>
-        <p class="text-[5rem] text-[#D1E8B2] font-bold">30.000</p>
-      </DataCard>
+      <div class="grid grid-cols-2 gap-16 grow items-center grow">
+        <DataCard header={"2021"} footer={"DENUNCIAS"}>
+          <p class="text-[5rem] text-[#D1E8B2] font-bold">6.000</p>
+        </DataCard>
+        <DataCard header={"ENTRE 2012 y 2021"} footer={"CASOS"}>
+          <p class="text-[5rem] text-[#D1E8B2] font-bold">30.000</p>
+        </DataCard>
     </div>
   </div>
 </Slide>

@@ -9,7 +9,7 @@
 </script>
 
 <Slide bgImage={Background}>
-  <div class="flex flex-col justify-between h-[80vh]">
+  <div class="flex flex-col h-full py-16">
     <div class="flex justify-between items-start">
       <SlideTitleLight
         title={"Nuestra misión"}
@@ -17,7 +17,7 @@
       />
       <BuddyLogoLight />
     </div>
-    <div class="flex justify-between mb-16">
+    <div class="flex justify-between grow items-center">
       <div class="flex flex-col gap-4 grow">
         <h1 class="text-[#2C2C2E] text-[6rem] text-left">¿Por qué</h1>
         <h1 class="text-[#628A2C] text-[6rem] text-right">BUDDY?</h1>

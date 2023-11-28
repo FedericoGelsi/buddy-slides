@@ -15,20 +15,22 @@
 </script>
 
 <Slide bgImage={Background}>
-  <div class="flex flex-col justify-between h-[80vh]">
+  <div class="flex flex-col h-full py-16">
     <div class="flex justify-between items-start">
       <SlideTitleLight title={"¿Quién es Buddy?"} subtitle={"Nuestro equipo"} />
       <BuddyLogoLight />
     </div>
-    <div class="grid grid-cols-4 grid-rows-2 gap-4">
-      <TeamMember name={"Ana V. Faré Vergara"} img={Ana} />
-      <TeamMember name={"Andrea F. Celtich"} img={Andre} />
-      <TeamMember name={"Agustín Buset"} img={Agus} />
-      <TeamMember name={"Francisco Arenas V."} img={Fran} />
-      <TeamMember name={"M. Florencia Bird"} img={Flor} />
-      <TeamMember name={"Diego Bari"} img={Diego} />
-      <TeamMember name={"Federico Gelsi"} img={Fede} />
-      <TeamMember name={"Juan Bautista Bianco L."} img={Bauti} />
+    <div class="flex justify-between items-center grow">
+      <div class="grid grid-cols-4 grid-rows-2 gap-4 grow">
+        <TeamMember name={"Ana V. Faré Vergara"} img={Ana} />
+        <TeamMember name={"Andrea F. Celtich"} img={Andre} />
+        <TeamMember name={"Agustín Buset"} img={Agus} />
+        <TeamMember name={"Francisco Arenas V."} img={Fran} />
+        <TeamMember name={"M. Florencia Bird"} img={Flor} />
+        <TeamMember name={"Diego Bari"} img={Diego} />
+        <TeamMember name={"Federico Gelsi"} img={Fede} />
+        <TeamMember name={"Juan Bautista Bianco L."} img={Bauti} />
+      </div>
     </div>
   </div>
 </Slide>

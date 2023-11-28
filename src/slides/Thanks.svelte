@@ -1,6 +1,6 @@
 <script>
   import Slide from "../lib/Slide.svelte";
-  import Background from "../assets/buddy-bg.png";
+  import Background from "../assets/buddy-thanks-bg.png";
   import Logo from "../assets/buddy-logo.png";
 </script>
 

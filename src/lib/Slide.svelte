@@ -33,6 +33,7 @@
   data-background-video-muted={bgVideoMuted}
   data-background-iframe={bgIframe}
   data-background-interactive={bgInteractive}
+  class="h-full"
 >
   <slot />
 </section>
