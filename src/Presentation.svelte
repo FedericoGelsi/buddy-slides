@@ -1,28 +1,23 @@
 <script>
-    import Title          from './slides/Title.svelte';
-    import Love           from './slides/Love.svelte';
-    import GettingStarted from './slides/GettingStarted.svelte';
-    import AutoAnimate from './slides/examples/AutoAnimate.svelte';
-    import Backgrounds from './slides/examples/Backgrounds.svelte';
-    import Barebones from './slides/examples/Barebones.svelte';
-    import LayoutHelpers from './slides/examples/LayoutHelpers.svelte';
-    import Markdown from './slides/examples/Markdown.svelte';
-    import Math from './slides/examples/Math.svelte';
-    import Media from './slides/examples/Media.svelte';
-    import Transitions from './slides/examples/Transitions.svelte';
+  import BusinessModel from "./slides/BusinessModel.svelte";
+  import Demo from "./slides/Demo.svelte";
+  import GroomingCases from "./slides/GroomingCases.svelte";
+  import HowIsBuddy from "./slides/HowIsBuddy.svelte";
+  import NextSteps from "./slides/NextSteps.svelte";
+  import OurMission from "./slides/OurMission.svelte";
+  import Thanks from "./slides/Thanks.svelte";
+  import TheTeam from "./slides/TheTeam.svelte";
+  import Title from "./slides/Title.svelte";
 
-    const partner = ['Svelte', 'Reveal.js'];
+  const partner = ["Svelte", "Reveal.js"];
 </script>
 
-<Title/>
-<Love {partner}/>
-<GettingStarted/>
-<AutoAnimate/>
-<Backgrounds/>
-<Barebones/>
-<LayoutHelpers/>
-<Markdown/>
-<Math/>
-<Media/>
-<Transitions/>
-
+<Title />
+<GroomingCases />
+<OurMission />
+<HowIsBuddy />
+<Demo />
+<BusinessModel />
+<NextSteps />
+<TheTeam />
+<Thanks />

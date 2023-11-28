@@ -9,7 +9,7 @@
     <div class="h-32">
       <img src={Logo} alt="Buddy"/>
     </div>
-    <h1 class="text-left text-[4rem]">BUDDY</h1>
-    <h3 class="text-left text-[#8DC63F] text-[2rem]">Tu compañero en la prevención</h3>
+    <h1 class="text-left text-[4rem]">¡Gracias!</h1>
+    <h3 class="text-left text-[#8DC63F] text-[2rem]">Queremos escucharte</h3>
   </div>
 </Slide>
