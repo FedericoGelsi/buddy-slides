@@ -12,6 +12,10 @@
       <SlideTitleDark title={"Una situación alarmante"} subtitle={"UNESCO"} />
       <BuddyLogoDark />
     </div>
-    <div class="grid grid-cols-2 gap-16 grow items-center grow"></div>
+    <div class="grid grid-cols-2 gap-16 grow items-center grow">
+      <DataCard header={"2021"} footer={"DENUNCIAS"}>
+        <p class="text-[5rem] text-[#D1E8B2] font-bold">6.000</p>
+      </DataCard>
+    </div>
   </div>
 </Slide>

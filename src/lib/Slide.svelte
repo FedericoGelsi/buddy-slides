@@ -18,6 +18,7 @@
   export let bgIframe;
   export let bgInteractive;
   // Transitions
+  export let autoAnimate = false;
 </script>
 
 <section
@@ -34,6 +35,7 @@
   data-background-iframe={bgIframe}
   data-background-interactive={bgInteractive}
   class="h-full"
+  data-auto-animate={autoAnimate}
 >
   <slot />
 </section>

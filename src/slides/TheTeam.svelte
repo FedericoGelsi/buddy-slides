@@ -29,7 +29,7 @@
         <TeamMember name={"M. Florencia Bird"} img={Flor} />
         <TeamMember name={"Diego Bari"} img={Diego} />
         <TeamMember name={"Federico Gelsi"} img={Fede} />
-        <TeamMember name={"Juan Bautista Bianco L."} img={Bauti} />
+        <TeamMember name={"Juan Bautista Bianco"} img={Bauti} />
       </div>
     </div>
   </div>
