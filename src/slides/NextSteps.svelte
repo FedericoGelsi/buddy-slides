@@ -1,11 +1,8 @@
 <script>
   import Slide from "../lib/Slide.svelte";
   import Background from "../assets/Slide-3-bg.png";
-  import DataCard from "../lib/DataCard.svelte";
   import SlideTitleLight from "../lib/SlideTitleLight.svelte";
   import BuddyLogoLight from "../lib/BuddyLogoLight.svelte";
-  import SlideImage from "../assets/Questions-pana 1.png";
-  import Questions from "../lib/Questions.svelte";
   import Stairs from "../lib/Stairs.svelte";
 </script>
 
@@ -29,13 +26,13 @@
         <div class="flex items-center gap-4">
           <div class="rounded-full w-4 h-4 bg-[#0C969D]"></div>
           <h1 class="text-[#2C2C2E] text-[2rem] text-left">
-            Nuevos escenarios y actividades
+            Múltiples perfiles.
           </h1>
         </div>
         <div class="flex items-center gap-4">
           <div class="rounded-full w-4 h-4 bg-[#0C969D]"></div>
           <h1 class="text-[#2C2C2E] text-[2rem] text-left">
-            Nuevos escenarios y actividades
+            Contacto con profesionales
           </h1>
         </div>
       </div>
